@@ -1,4 +1,6 @@
-import { useContext } from "react";
+import Lottie from "lottie-react";
+import React, { useContext } from "react";
+import animationData from "../../animation.json";
 import { appContext } from "../../context/AppContext";
 import "./Login.css";
 
@@ -11,9 +13,9 @@ function Login() {
 
   return (
     <div className="login">
-     
+      <Lottie animationData={animationData} loop={true} className="login-animation" />
       <p className="login-para">
-      Welcome To The Question Game
+        Welcome To The Question Game
       </p>
       <button onClick={buttonClicked} id="start">
         Start
