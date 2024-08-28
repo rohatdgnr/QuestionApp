@@ -1,0 +1,22 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 450px;
+    gap: 100px;
+  }
+
+  .login p {
+    font-size: 34px;
+  }
+
+  #start {
+    width: 350px;
+    height: 75px;
+    font-size: 44px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+  }
+
+
