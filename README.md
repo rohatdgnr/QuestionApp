@@ -3,7 +3,7 @@
 This project is a question-answer application developed using HTML, CSS, JavaScript, React, and Vite.
 
 ## [Click Here for Live Site]
-
+https://66d426dd75f6cefe615b818a--capable-kulfi-7633c8.netlify.app/
 ## Installation
 
 You can follow the steps below to run the project in your local environment:
